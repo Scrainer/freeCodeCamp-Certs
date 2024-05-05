@@ -6,7 +6,7 @@ Link to the course: [freeCodeCamp's Responisve Web Design Certification](https:/
 - [x] Cat Photo App
 - [x] Cafe Menu
 - [x] Set of Colored Markers
-- [ ] Registration Form
+- [x] Registration Form
 - [ ] Survey Form (Certification Project)
 - [ ] Rothko Painting
 - [ ] Nutrition Label
