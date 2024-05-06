@@ -8,7 +8,7 @@ Link to the course: [freeCodeCamp's Responisve Web Design Certification](https:/
 - [x] Set of Colored Markers
 - [x] Registration Form
 - [x] Survey Form (Certification Project)
-- [ ] Rothko Painting
+- [x] Rothko Painting
 - [ ] Nutrition Label
 - [ ] Photo Gallery
 - [ ] Quiz
