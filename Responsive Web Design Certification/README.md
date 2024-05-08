@@ -10,7 +10,7 @@ Link to the course: [freeCodeCamp's Responisve Web Design Certification](https:/
 - [x] Survey Form (Certification Project)
 - [x] Rothko Painting
 - [x] Photo Gallery
-- [ ] Nutrition Label
+- [x] Nutrition Label
 - [ ] Quiz
 - [ ] Tribute Page (Certification Project)
 - [ ] Balance Sheet
