@@ -11,7 +11,7 @@ Link to the course: [freeCodeCamp's Responisve Web Design Certification](https:/
 - [x] Rothko Painting
 - [x] Photo Gallery
 - [x] Nutrition Label
-- [ ] Quiz
+- [x] Quiz
 - [ ] Tribute Page (Certification Project)
 - [ ] Balance Sheet
 - [ ] Cat Painting
