@@ -13,7 +13,7 @@ Link to the course: [freeCodeCamp's Responisve Web Design Certification](https:/
 - [x] Nutrition Label
 - [x] Quiz
 - [ ] Tribute Page (Certification Project)
-- [ ] Balance Sheet
+- [x] Balance Sheet
 - [ ] Cat Painting
 - [ ] Piano
 - [ ] Technical Documentation Page (Certification Project)
