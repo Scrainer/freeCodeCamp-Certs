@@ -17,7 +17,7 @@ Link to the course: [freeCodeCamp's Responisve Web Design Certification](https:/
 - [x] Cat Painting
 - [x] Piano
 - [ ] Technical Documentation Page (Certification Project)
-- [ ] City Skyline
+- [x] City Skyline
 - [ ] Magazine
 - [ ] Product Landing Page (Certification Project)
 - [ ] Ferris Wheel
