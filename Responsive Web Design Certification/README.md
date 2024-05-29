@@ -20,6 +20,6 @@ Link to the course: [freeCodeCamp's Responisve Web Design Certification](https:/
 - [x] City Skyline
 - [x] Magazine
 - [ ] Product Landing Page (Certification Project)
-- [ ] Ferris Wheel
+- [x] Ferris Wheel
 - [ ] Penguin
 - [ ] Personal Portfolio Webpage (Certification Project)
