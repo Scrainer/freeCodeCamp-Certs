@@ -18,7 +18,7 @@ Link to the course: [freeCodeCamp's Responisve Web Design Certification](https:/
 - [x] Piano
 - [ ] Technical Documentation Page (Certification Project)
 - [x] City Skyline
-- [ ] Magazine
+- [x] Magazine
 - [ ] Product Landing Page (Certification Project)
 - [ ] Ferris Wheel
 - [ ] Penguin
