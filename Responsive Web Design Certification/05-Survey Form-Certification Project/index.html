@@ -1,78 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>freeCodeCamp Survey Form</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro a los Pioneros de Schoenstatt</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <div class="container">
-        <header class="header">
-            <h1 id="title">freeCodeCamp Survey Form</h1>
-            <p id="description">Thank you for taking the time to help us improve the platform</p>
-        </header>
-        <form id="survey-form">
-            <div class="form-group">
-                <label id="name-label" for="name">
-                    Name
-                </label>
-                <input required type="text" name="name" id="name" placeholder="Enter your name">
-            </div>
-            <div class="form-group">
-                <label id="email-label" for="email">
-                    Email
-                </label>
-                <input required type="email" name="email" id="email" placeholder="Enter your email">
-            </div>
-            <div class="form-group">
-                <label id="number-label" for="number">
-                    Age (optional)
-                </label>
-                <input type="number" name="number" id="number" min="10" max="99" placeholder="Age">
-            </div>
-            <div class="form-group">
-                <label for="dropdown">Which option best describes your current role?</label>
-                <select required name="role" id="dropdown" >
-                    <option disabled selected value="">Select current role</option>
-                    <option value="student">Student</option>
-                    <option value="job">Full time job</option>
-                    <option value="learner">Full time learner</option>
-                    <option value="preferNo">Prefer not to say</option>
-                    <option value="other">Other</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label>Would you recommend freeCodeCamp to a friend?</label>
-                <label for="recommend-definitely"><input checked id="recommend-definitely" name="user-recommend" type="radio" value="definitely"> Definitely</label>
-                <label for="recommend-maybe"><input id="recommend-maybe" name="user-recommend" type="radio" value="maybe"> Maybe</label>
-                <label for="recommend-notsure"><input id="recommend-notsure" name="user-recommend" type="radio" value="notsure"> Not sure</label>
-            </div>
-            <div class="form-group">
-                <label>What would you like to see improved?</label>
-                <label for=""><input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">Front-end Projects</label>
-                <label><input name="prefer" value="back-end-projects" type="checkbox" class="input-checkbox">Back-end Projects</label>
-                <label><input name="prefer" value="data-visualization" type="checkbox" class="input-checkbox">Data Visualization</label>
-                <label><input name="prefer" value="challenges" type="checkbox" class="input-checkbox">Challenges</label>
-                <label><input name="prefer" value="open-source-community" type="checkbox" class="input-checkbox">Open Source Community</label>
-                <label><input name="prefer" value="gitter-help-rooms" type="checkbox" class="input-checkbox">Gitter help rooms</label>
-                <label><input name="prefer" value="videos" type="checkbox" class="input-checkbox">Videos</label>
-                <label><input name="prefer" value="city-meetups" type="checkbox" class="input-checkbox">City Meetups</label>
-                <label><input name="prefer" value="wiki" type="checkbox" class="input-checkbox">Wiki</label>
-                <label><input name="prefer" value="forum" type="checkbox" class="input-checkbox">Forum</label>
-                <label><input name="prefer" value="additional-courses" type="checkbox" class="input-checkbox">Additional Courses</label>
-            </div>
-            <div class="form-group">
-                <label>Any comments or suggestions?</label>
-                <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
-            </div>
-            <div class="form-group">
-                <button type="submit" id="submit" class="submit-button">
-                  Submit
-                </button>
-            </div>
-        </form>
+      <header class="header">
+        <img id="logo" class="logo" src="./public/Logo Pioneros.svg" alt="" />
+        <h1 id="title">
+          Formulario de Registro para los Pioneros de Schoenstatt de Guayaquil
+        </h1>
+        <p id="description">
+          Por favor llenar este formulario para pertenecer a los Pioneros del
+          Santuario de Schoenstatt de Guayaquil
+        </p>
+      </header>
+
+      <form id="survey-form">
+        <div class="seccion-formulario">
+          <label id="name-label" for="name">Nombre completo</label>
+          <input
+            required
+            class="pregunta"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Jose Engling"
+          />
+        </div>
+
+        <div class="seccion-formulario">
+          <label id="email-label" for="email">Correo Electrónico</label>
+          <input
+            required
+            class="pregunta"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="jengling@schoenstatt.com.ec"
+          />
+        </div>
+
+        <div class="seccion-formulario">
+          <label id="number-label" for="number">Edad</label>
+          <input
+            type="number"
+            class="pregunta"
+            name="number"
+            id="number"
+            min="13"
+            max="18"
+            placeholder="16"
+          />
+        </div>
+
+        <div class="seccion-formulario">
+          <label for="dropdown">¿En qué grado estás?</label>
+          <select required name="grade" id="dropdown" class="pregunta">
+            <option selected disabled value="">Selecciona un grado</option>
+            <option value="9">9no EGB</option>
+            <option value="10">10mo EGB</option>
+            <option value="11">1ro BGU</option>
+            <option value="12">2do BGU</option>
+            <option value="13">3ro BGU</option>
+          </select>
+        </div>
+
+        <div class="seccion-formulario">
+          <label>¿Has estado antes en los Pioneros o Cruzados?</label>
+          <label for="antes-si"
+            ><input
+              checked
+              id="antes-si"
+              class="input-radio"
+              name="experiencia-pasada"
+              type="radio"
+              value="si"
+            />
+            Si</label
+          >
+          <label for="antes-no"
+            ><input
+              id="antes-no"
+              class="input-radio"
+              name="experiencia-pasada"
+              type="radio"
+              value="no"
+            />
+            No</label
+          >
+        </div>
+
+        <div class="seccion-formulario">
+          <label>¿Cuál es tu actividad favorita de los Pioneros?</label>
+          <label
+            ><input
+              name="fav-activity"
+              value="reuniones-semanales"
+              type="checkbox"
+              class="input-checkbox"
+            />Reuniones semanales</label
+          >
+          <label
+            ><input
+              name="fav-activity"
+              value="cantatas"
+              type="checkbox"
+              class="input-checkbox"
+            />Cantatas</label
+          >
+          <label
+            ><input
+              name="fav-activity"
+              value="apostolados"
+              type="checkbox"
+              class="input-checkbox"
+            />Apostolados</label
+          >
+          <label
+            ><input
+              name="fav-activity"
+              value="campamentos"
+              type="checkbox"
+              class="input-checkbox"
+            />Campamentos</label
+          >
+        </div>
+
+        <div class="seccion-formulario">
+          <label for="comments"
+            >Algún dato importante que debamos saber de ti?</label
+          >
+          <textarea
+            class="input-textarea"
+            name="comments"
+            id="comments"
+            placeholder="Gustos, talentos, alergias, etc."
+          ></textarea>
+        </div>
+
+        <div class="seccion-formulario">
+          <button id="submit" class="submit-button" type="submit">
+            Registrar
+          </button>
+        </div>
+      </form>
     </div>
-    
-</body>
+  </body>
 </html>
