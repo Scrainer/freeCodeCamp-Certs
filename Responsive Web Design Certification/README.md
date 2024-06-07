@@ -21,5 +21,5 @@ Link to the course: [freeCodeCamp's Responisve Web Design Certification](https:/
 - [x] Magazine
 - [ ] Product Landing Page (Certification Project)
 - [x] Ferris Wheel
-- [ ] Penguin
+- [x] Penguin
 - [ ] Personal Portfolio Webpage (Certification Project)
